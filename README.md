@@ -16,3 +16,5 @@ This will loop until your sudo session stops, to prevent that you can do a set o
 </br>
 This can be used to stress test your system or something </br>
 You can set the maximum amount of lines saved in RAM in _terminal settings > profiles > window > scrollback_ if you want to use this for asthetics.
+
+_Fun fact: fs stands for file scroll._

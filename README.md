@@ -6,7 +6,7 @@ This was made for macOS.
 2. Set as command</br>
 Step 1: Go to /usr/local/bin</br>
 Step 2: Move fs.sh there</br>
-Step 3: Take ownership of file to edit it OR you can use an editor within the terminal for slight added security (To take ownership: sudo chown $(whoami) /usr/local/bin/fs.sh or if you don't trust this look it up)</br>
+Step 3: Take ownership of file to edit it OR you can use an editor within the terminal for slight added security, however to run it you must sudo fs. (To take ownership: sudo chown $(whoami) /usr/local/bin/fs.sh or if you don't trust this look it up)</br>
 Step 4: Rename fs.sh to fs</br>
 Step 5: do chmod +x /usr/local/bin/fs</br>
 Now you should just be able to type fs in a new terminal window, put in your password for sudo, and you are done.</br>

@@ -9,6 +9,7 @@ Step 2: Move fs.sh there</br>
 Step 3: Take ownership of file to edit it OR you can use an editor within the terminal for slight added security, however to run it you must sudo fs. (To take ownership: sudo chown $(whoami) /usr/local/bin/fs.sh or if you don't trust this look it up)</br>
 Step 4: Rename fs.sh to fs</br>
 Step 5: do chmod +x /usr/local/bin/fs</br>
+Step 6: do xattr -dr com.apple.quarantine /usr/local/bin/fs to de-quarantine it, and if you didn't take ownership put sudo at the beginning.
 Now you should just be able to type fs in a new terminal window, put in your password for sudo, and you are done.</br>
 This will loop until your sudo session stops, to prevent that you can do a set of commands that you can look up on google.</br>
 
